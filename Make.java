@@ -5,7 +5,8 @@ package scalemaker;
  * @author waire
  */
 public class Make {
-    
+    // Calls lowerNote() and raiseNote() on specific elements in the Key StringArray to form the desired scale. 
+    // Then Prints to Console.
      public static void minorScale(String[] key) {
         System.out.println(key[0] +" "+ key[1] +" "+ LowerAndRaise.lowerNote(key[2]) +" "+ key[3] +" "+ key[4] +" "+ LowerAndRaise.lowerNote(key[5]) +" "+ LowerAndRaise.lowerNote(key[6]));
     }
